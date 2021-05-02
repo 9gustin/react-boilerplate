@@ -6,5 +6,9 @@
   "plugins": [
 		"stylelint-order"
 	],
-  "rules": { "order/properties-alphabetical-order": true }
+  "rules": { 
+    "order/properties-alphabetical-order": true,
+    "selector-max-class": 3,
+    "selector-class-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$"
+  }
 }
