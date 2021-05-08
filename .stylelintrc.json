@@ -4,11 +4,13 @@
     "stylelint-config-sass-guidelines"
   ],
   "plugins": [
-		"stylelint-order"
+		"stylelint-order",
+    "stylelint-declaration-use-variable"
 	],
   "rules": { 
     "order/properties-alphabetical-order": true,
     "selector-max-class": 3,
-    "selector-class-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$"
+    "selector-class-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+    "sh-waqar/declaration-use-variable": [["/color/", "z-index", "font-size"]]
   }
 }
