@@ -11,6 +11,6 @@
     "order/properties-alphabetical-order": true,
     "selector-max-class": 3,
     "selector-class-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
-    "sh-waqar/declaration-use-variable": [["/color/", "z-index", "font-size"]]
+    "sh-waqar/declaration-use-variable": [["/color/", "z-index", "font-size", "font-weight"]]
   }
 }
