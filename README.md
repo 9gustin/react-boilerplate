@@ -1,6 +1,14 @@
 # React Boilerplate 👋⚛️
 
-## Contains
+## 👨‍💻 How to use
+```bash
+git clone https://github.com/9gustin/react-boilerplate.git
+cd react-boilerplate
+npm install && npm start
+```
+Now you could delete .git folder and rename the folder "react-boilerplate" to "your-project-name" and it's all ;)
+
+## 📦 Contains
 
 #### Typescript
 [Reference](https://create-react-app.dev/docs/adding-typescript/)
