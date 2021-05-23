@@ -36,7 +36,9 @@ Has the default config with 4 added rules:
 Validate ESLint and Stylelint on pre-commit
 
 #### Deploy
-The app contains the "deploy" command. That deploy the React App to Firebase. For that you have to replace "PROJECT_ID" for you project id into .firebaserc. Like that: 
+The app contains the "deploy" command. That deploy the React App to Firebase. 
+You must have installed [Firebase Cli](https://firebase.google.com/docs/cli?hl=es) and logged with your user.
+For that you have to replace "PROJECT_ID" for you project id into .firebaserc. Like that: 
 
 ```JSON
 {
