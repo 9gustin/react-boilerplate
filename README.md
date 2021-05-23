@@ -35,3 +35,7 @@ Has the default config with 4 added rules:
 [Reference](https://github.com/typicode/husky) <br/>
 Validate ESLint and Stylelint on pre-commit
 
+
+#### Upgrades / TO DO:
+ - Firebase to deploy
+ - Generic app router
