@@ -28,7 +28,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.ts src/**/*.tsx",
     "lint-scss": "npx stylelint \"**/*.scss\"",
-    "lint-fix": "eslint src/**/*.ts src/**/*.tsx --fix && npx stylelint \"**/*.scss\" --fix"
+    "lint-fix": "eslint src/**/*.ts src/**/*.tsx --fix && npx stylelint \"**/*.scss\" --fix",
+    "deploy": "npm run build && firebase use default && firebase deploy"
   },
   "eslintConfig": {
     "extends": [

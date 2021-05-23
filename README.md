@@ -35,7 +35,17 @@ Has the default config with 4 added rules:
 [Reference](https://github.com/typicode/husky) <br/>
 Validate ESLint and Stylelint on pre-commit
 
+#### Deploy
+The app contains the "deploy" command. That deploy the React App to Firebase. For that you have to replace "PROJECT_ID" for you project id into .firebaserc. Like that: 
+
+```JSON
+{
+  "projects": {
+    "default": "my-random-project123"
+  }
+}
+
+```
 
 #### Upgrades / TO DO:
- - Firebase to deploy
  - Generic app router
