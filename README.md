@@ -48,6 +48,3 @@ After you have to replace "PROJECT_ID" for you project id into .firebaserc. Like
 }
 
 ```
-
-#### Upgrades / TO DO:
- - Generic app router
