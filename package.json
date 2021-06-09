@@ -23,7 +23,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve ./build -s -p ${PORT: -4000}",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
